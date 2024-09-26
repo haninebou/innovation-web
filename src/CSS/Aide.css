@@ -1,0 +1,30 @@
+
+:root {
+    --card-container-height: 300px; 
+    --carousel-height:120%;
+    --main-background-color:#5e3131;
+    --whit-color:#ffffff;
+    --black-color:black;
+   
+  }
+.aideHeader{
+background-color: transparent;
+
+}
+.aide-link{
+    text-decoration: none;
+    color: white;
+}
+.accordion-button:not(.collapsed) {
+    color: white;
+    background-color: var(--main-background-color);
+}
+
+.accordion-button {
+    background-color: var(--whit-color);
+    color: var(--main-background-color);
+    font-weight: 1000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 5px;
+
+}

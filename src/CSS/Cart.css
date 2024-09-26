@@ -1,0 +1,120 @@
+.cart-page-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 100px;
+}
+
+.cart-page-container h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #cb8686;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.pro-com {
+    height: 400px!important;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.pro-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.cart-item-details {
+    flex-grow: 1;
+}
+
+.cart-item-name {
+    font-size: 1.2rem;
+    color: #333;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.cart-item-price {
+    font-size: 1rem;
+    color: #cb8686;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.cart-item-actions {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+.remove-item-icon {
+    font-size: 1.5rem;
+    color: #e57373;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.remove-item-icon:hover {
+    color: #d32f2f;
+}
+
+.cart-item-quantity {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.cart-item-quantity label {
+    font-weight: bold;
+    color: #333;
+}
+
+.cart-item-quantity input {
+    width: 50px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.confirm-order-button {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #cb8686;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50px;
+    margin-top: 30px;
+    transition: background-color 0.3s;
+}
+
+.confirm-order-button:hover {
+    background-color: #4a148c;
+}
+
+.cart-page-container p {
+    text-align: center;
+    color: #757575;
+    font-size: 1.2rem;
+}

@@ -1,0 +1,128 @@
+
+.login-title{
+    font-weight: bolder;
+    
+  
+}
+
+.login {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-color: #f9f9f9;
+    font-family: Rubik;
+   
+    
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    border-radius: 10px;
+    box-shadow: 0 5px 5px gray;
+    width: 100%;
+    max-width: 500px;
+}
+
+.signup-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 0 5px 5px gray;
+    width: 100%;
+    max-width: 500px;
+}
+
+.form-group {
+    position: relative;
+    margin-top: 20px;
+    width: 100%;
+}
+
+
+
+.login-label {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    background: #fff;
+    padding: 0 5px;
+    font-size: 16px;
+    color: #999;
+    transition: all 0.3s ease-in-out;
+    pointer-events: none;
+}
+
+.form-control {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.form-control:focus {
+    border-color: #ebcaca;
+    box-shadow: none!important;
+    border: 1px solid #999 !important;
+
+   
+}
+
+.form-control:focus+.login-label,
+.form-control:not(:placeholder-shown)+.login-label {
+    top: -15px;
+    left: 10px;
+    color: #e9a5a5;
+    font-size: 14px;
+}
+
+.form-control::placeholder {
+    color: transparent;
+}
+
+.login .btn[type="submit"] {
+    margin-top: 30px;
+    padding: 10px 20px;
+    border:1px solid black;
+    border-radius: 5px;
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    width: 100%;
+    max-width: 200px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.password-toggle-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.butt-class{
+    font-weight: bolder;
+}
+.link{
+    text-decoration: none;
+    color: #999;
+}

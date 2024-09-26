@@ -1,0 +1,44 @@
+.circle-slider {
+    width: 63%;
+    margin: 0 auto;
+    
+}
+
+.circle-slider .slider-container {
+    
+    margin-top: 0;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.circle-slider .slick-slide {
+    
+    text-align: center;
+    
+    margin: 25px;
+    height: 200px;
+    width: 180px !important;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.circle-slider .slider-img {
+    height: 200px;
+    width: 180px;
+    border: 1px solid black;
+    
+    
+}
+
+.circle-slider .slick-slide:hover {
+    transform: scale(1.1);
+}
+.circle-slider .slick-prev,
+.circle-slider .slick-next {
+    font-size: 24px;
+    background-color: black;
+    border-radius: 100%;
+    z-index: 1;
+    
+}
+

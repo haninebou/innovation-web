@@ -1,0 +1,372 @@
+.home{
+    margin-top: 100px;
+    
+}
+
+.home-image-container {
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    margin-bottom: 0;
+}
+
+.home-image {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+}
+
+.home-image1 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.see-more-button {
+    position: absolute;
+    bottom: 230px;
+    left: 45%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: rgba(255, 255, 255);
+    color: rgb(20, 19, 19);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.see-more-button1{
+    position: absolute;
+    bottom: 50px;
+    left: 25%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: rgba(255, 255, 255);
+    color: rgb(20, 19, 19);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.see-more-button:hover {
+    background-color: rgba(7, 7, 7, 0.7);
+    color: white;
+}
+.see-more-button1:hover {
+    background-color: rgba(7, 7, 7, 0.7);
+    color: white;
+}
+
+.products {
+    margin-top: 30px;
+    padding: 0;
+}
+
+.product-container {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    border: 1px solid transparent;
+    overflow: hidden;
+    border-radius: 0;
+}
+
+.product-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.position-icon {
+    margin-top: 10%;
+}
+
+.car-img {
+    height: 300px;
+}
+
+
+.overlay-link {
+    display: inline-block;
+}
+
+.cart-icon {
+    color: black;
+    transition: transform 0.3s ease-in-out;
+    font-size: 20px;
+    position: absolute;
+    top: 4px;
+    right: 0;
+    padding: 10px;
+    background-color: white;
+    border-radius: 100%;
+}
+
+.cart-right-icon {
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.cart-left-icon {
+    position: absolute;
+    top: 250px;
+    left: 5px;
+    padding: 10px;
+}
+
+.overlay-link {
+    display: none;
+}
+.card:hover{
+   
+    transform: scale(1.1);
+}
+
+.card:hover .overlay-link {
+    display: block;
+    cursor: pointer;
+}
+
+.overlay-link:hover .cart-icon {
+    transform: scale(1.2);
+}
+
+.see {
+    height: 300px;
+    width: 400px;
+}
+
+.carousel-item-container {
+    position: relative;
+}
+
+.carousel-item-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.carousel-item-images .cat-image {
+    height: 400px;
+    width: 300px;
+    margin: 0 10px;
+}
+
+.carousel-caption {
+    position: absolute;
+    bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #5a4848;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+
+
+.position-icon {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 10px;
+    font-weight: bolder;
+    font-size: larger;
+   
+}
+
+
+.line-container-1 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.line-1 {
+    flex-grow: 1;
+    margin: 0 5px;
+    border: 0;
+    border-top: 2px solid black
+}
+
+.line-heading-1 {
+    margin: 0 15px;
+    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(0, 0, 0)
+}
+@media (min-width: 767px){
+.home-image-container-phone{
+    display: none;
+    overflow-x: hidden;
+}
+}
+
+
+@media (max-width: 767px){
+
+.home-image-container-desktop{
+display: none;
+}
+.home-image-container {
+    position: relative;
+    
+    height: 70vh;
+    margin-bottom: 0;
+}
+
+.home {
+    margin-top: 80px;
+
+    
+}
+
+
+.home .my-img{
+height: 350px;
+    width: 300px;
+    
+    
+   
+    
+}
+
+
+.carousel-item-images .cat-image {
+    height: 300px;
+    width: 200px ;
+    margin: 1px;
+}
+
+.carousel-caption {
+    position: absolute;
+    bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.carousel-item-container {
+    position: relative;
+}
+
+
+}
+
+/* About Us Section */
+.about-us {
+    text-align: center;
+}
+
+.about-us-heading {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #333;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.about-us-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* About Us Text */
+.about-us-text {
+    flex: 1;
+    padding: 20px;
+    font-size: 18px;
+    line-height: 1.8;
+    color: #555;
+    
+}
+
+/* Carousels for About Us Section */
+.about-us-carousels {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.about-carousel {
+    width: 100%;
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+.about-carousel-image {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    height: 450px;
+}
+
+.about-carousel-image:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive styles */
+@media (max-width:  768px) {
+    .about-us-content {
+        flex-direction: column;
+    }
+
+    .about-us-text {
+        text-align: center;
+    }
+}
+
+@media (max-width: 576px) {
+    .about-us-heading {
+        font-size: 28px;
+    }
+
+    .about-carousel {
+        max-width: 250px !important;
+
+    }
+    .about-carousel-image{
+        height: 300px !important;
+        width: 250px !important;
+    }
+}

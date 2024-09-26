@@ -1,0 +1,179 @@
+
+.single-product{
+margin-top: 100px !important;
+overflow-x: hidden;
+}
+
+
+.Sidephoto{
+    height: 85px;
+    width: 100px;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    
+}
+.mainProductPhoto{
+   height: 500px;
+   width: 80%;
+   
+
+}
+.acc{
+    background-color: transparent;
+}
+.quantity{
+    width: 10%;
+    border-radius: 5px;
+    border-color: black;
+    margin-left: 10px;
+}
+.productName{
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+.addButton{
+    color: black;
+    border-color: black;
+    font-weight: bold;
+    box-shadow: black 0px 0px 9px;
+    border-radius: 15px;
+    border: none;
+
+}
+.addButton:hover{
+    
+    background-color: black;
+        color: white;
+        box-shadow: black 0px 0px 9px;
+}
+#purpleColor{
+    color: black !important;
+
+}
+.wishIcon{
+    margin-top: 3px;
+    margin-left: 15px;
+    height: 30px;
+    color: black;
+    cursor: pointer;
+   
+    
+}
+.tooltip{
+    background-color: white;
+    color: black;
+}
+
+.accordion-button:not(.collapsed) {
+background-color: transparent;
+color: black;
+box-shadow: none;
+
+box-shadow: black 0px 0px 9px;
+}
+
+.accordion-button {
+    background-color: transparent;
+    color: black;
+    box-shadow: black 0px 0px 9px;
+    font-weight: 1000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 5px;
+
+}
+.accordion-button:focus{
+    box-shadow: none;
+    
+        box-shadow: black 0px 0px 9px;
+}
+.my-accordian-body{
+background-color: transparent;
+}
+.proacc{
+    margin-top: 50px;
+    width: 90%;
+    background-color: transparent;
+}
+
+.my-img{
+    height: 300px;
+    width: 250px;
+    
+
+}
+.my-card{
+    width: fit-content;
+    border: none;
+    background-color: transparent;
+    
+}
+
+.line-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.line {
+    flex-grow: 1;
+    margin: 0 10px;
+    border: 0;
+    border-top: 3px solid black;
+}
+.line-heading {
+    margin: 0 15px;
+    font-family: 'Gill Sans',
+        'Gill Sans MT',
+        Calibri,
+        'Trebuchet MS',
+        sans-serif;
+    color: black;
+
+}
+
+.mainImageProduct{
+    height: 500Px;
+}
+@media (max-width: 767px) {
+   
+.Sidephoto {
+        max-height: 70px;
+        max-width: 70px;
+        border: none;
+    }
+
+    .mainProductPhoto {
+        height: 300px;
+        max-width: 100%;
+      
+
+    }
+   .price-name{
+    display: none;
+   } 
+  .proacc {
+      margin-top: 50px;
+      width: 100%;
+  }
+  .my-img {
+      height: 200px;
+      width: 150px;
+  }
+  .my-card {
+      width: 150px !important;
+      border: none;
+      background-color: transparent;
+
+  }
+   .name-price{
+    text-align: center;
+   }
+  
+}
+
+
+@media(min-width:767px){
+    .name-price{
+        display: none;
+    }
+}

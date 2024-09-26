@@ -1,0 +1,120 @@
+.formulaire-de-commande{
+background-color: whitesmoke;
+    padding: 50px;
+}
+.cart-div-md-com {
+    background-color: whitesmoke;
+    padding: 5px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.cart-div-md-com:hover {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.CommandeForm{
+    margin-top: 105px;
+}
+.com-form input {
+     border: none;
+     box-shadow: none;
+     border-bottom: 1px solid grey;
+     border-radius: 0;
+     outline: none;
+     background-color: transparent;
+ }
+ .com-form input:focus {
+     border: none;
+     box-shadow: none;
+     border-bottom: 1px solid var(--main-background-color);
+     border-radius: 0;
+     outline: none;
+     background-color: transparent;
+ }
+.CommandeForm select:focus{
+background-color: transparent;
+box-shadow: none;
+border-color: grey;
+}
+
+.facture {  
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.fact h6 {
+    margin-bottom: 10px;
+    color: gray
+}
+.CommandeForm select{
+    background-color: transparent;
+}
+.CommandeForm input{
+    background-color: transparent;
+}
+.CommandeForm input:focus{
+    background-color: transparent;
+    border-color: #6c757d;
+    box-shadow: none;
+}
+.pro-com {
+    height: 400px;
+    overflow-y: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    gap: 10px;
+}
+
+.pro-img{
+border-radius: 10px;
+height: 80px;
+width: 70px;
+margin-right: 15px;
+}
+.com-button{
+    width: 100%;
+}
+
+@media (max-width: 767px) {
+    .CommandeForm{
+        margin-top: 30px;
+    }
+    .com-button{
+        display: none!important;
+    }
+    .formulaire-de-commande{
+        background-color: white;
+
+    }
+    .facture{
+        box-shadow: none;
+    }
+    .cart-div-md-com{
+        height: 80px;
+    }
+    .pro-com {
+        height: 100px;
+           
+    }
+        .pro-img {
+        
+            border-radius: 5px;
+            height: 60px;
+            width: 60px;
+            margin-right: 10px;
+        }
+     .facture {
+          margin-top: -30px;
+         
+         }
+        .com-button-sm {
+          width: 100%;
+          }
+}
+@media (min-width: 767px){
+ 
+    .com-button-sm{
+        display: none!important;
+    }
+
+}

@@ -1,0 +1,87 @@
+.products-page{
+    width: 100%;
+    margin-top: 120px !important;
+    
+    
+   
+}
+
+.products-div{
+    margin-left: 150px;
+}
+
+.price-filter {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    /* Adjust as needed */
+}
+
+.filter-container {
+    margin: 0 10px;
+    /* Space between the input containers */
+}
+
+.filter-container .form-group {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.filter-container input {
+    
+    width: 100%;
+   
+}
+
+.filter-container input:focus {
+    border-color: gray;
+}
+
+.filter-container input:focus+label,
+.filter-container input:not(:placeholder-shown)+label {
+    top: -15px;
+    left: 10px;
+    color: black;
+    font-size: 14px;
+}
+
+.filter-container label {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    background: #fff;
+    padding: 0 5px;
+    font-size: 16px;
+    color: #999;
+    transition: all 0.3s ease-in-out;
+    pointer-events: none;
+}
+
+.custom-pagination .page-item .page-link {
+    color: black;
+    background-color:white;
+    border-color: #495057;
+    border-radius: 0;
+}
+
+.custom-pagination .page-item.active .page-link {
+    color: #fff;
+    background-color: gray;
+    border-color: #495057;
+   
+}
+
+.custom-pagination .page-item .page-link:hover {
+    color: #fff;
+    background-color: #e9a5a5;
+    
+   
+}
+
+
+
+.custom-pagination .page-item.active .page-link {
+    background-color: #343a40;
+    border-color: #343a40;
+}
+

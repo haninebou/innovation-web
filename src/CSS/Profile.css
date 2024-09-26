@@ -1,0 +1,125 @@
+/* General styles */
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f9f9f9;
+    font-family: 'Rubik', sans-serif;
+}
+
+.profile-content {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    border-radius: 10px;
+   
+}
+
+.profile-info {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-info p {
+    margin: 10px 0;
+}
+
+.change-password-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+
+.login-title {
+    font-weight: bolder;
+    color: black;
+    margin-bottom: 20px;
+}
+
+/* Form styles */
+.form-group {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.login-label {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    background: #fff;
+    padding: 0 5px;
+    font-size: 16px;
+    color: #999;
+    transition: all 0.3s ease-in-out;
+    pointer-events: none;
+}
+
+.form-control {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.form-control:focus {
+    border-color: #ebcaca;
+    box-shadow: none !important;
+    border: 1px solid #999 !important;
+}
+
+.form-control:focus+.login-label,
+.form-control:not(:placeholder-shown)+.login-label {
+    top: -15px;
+    left: 10px;
+    color: gray;
+    font-size: 14px;
+}
+
+.btn[type="submit"] {
+    margin-top: 30px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    width: 100%;
+    max-width: 200px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn[type="submit"]:hover {
+    background-color: white;
+    color: black;
+    
+}
+
+.password-toggle-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.butt-class {
+    font-weight: bolder;
+}
+
+.link {
+    text-decoration: none;
+    color: #999;
+}
+
+
